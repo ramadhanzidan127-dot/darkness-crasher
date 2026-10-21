@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         bgImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
         frame.addView(bgImage);
         
-        Glide.with(this).asGif().load(R.drawable.batman).into(bgImage);
+        Glide.with(this).asGif().load(R.drawable._687c046adc7afe8e5abae1d2bd148d95__1_).into(bgImage);
 
         LinearLayout l = new LinearLayout(this);
         l.setOrientation(1);

@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.otax.clone'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.otax.clone"
+        minSdk 21
+        targetSdk 34
+    }
+}
+dependencies { 
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+}
